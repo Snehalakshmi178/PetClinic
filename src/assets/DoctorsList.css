@@ -1,0 +1,68 @@
+.doctors-list-page {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ebe7e7; /* Background color */
+  color: #0b0b0b; /* Dark text */
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #0b0b0b; /* Dark text */
+}
+
+.doctors-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.doctor-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #2e2e2e; /* Darker background for items */
+  border-radius: 10px;
+  color: #f0f0f0; /* Light text */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Darker shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doctor-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.doctor-item h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.doctor-item p {
+  margin: 5px 0;
+}
+
+.doctor-item a {
+  color: #1e90ff; /* Light blue for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.doctor-item a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.doctor-item button {
+  background-color: #32d6a70f; /* Change the button color to black */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+  display: block; /* Make the button block-level */
+  margin: 10px auto; /* Center the button */
+}
+
+.doctor-item button:hover {
+  background-color: #333; /* Slightly lighter black on hover */
+}
